@@ -1,0 +1,21 @@
+{
+  "name": "max-my-literacy-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=26 <27"
+  },
+  "scripts": {
+    "dev": "quarto preview --no-browser",
+    "build": "quarto render",
+    "test": "npm run build && npm run test:browser",
+    "test:browser": "playwright test",
+    "check": "quarto check",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.13.0",
+    "@playwright/test": "1.62.1"
+  }
+}

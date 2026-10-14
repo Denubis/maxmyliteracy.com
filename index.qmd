@@ -1,0 +1,16 @@
+---
+title: "Max My Literacy"
+subtitle: "Building word knowledge for every learner"
+---
+
+Max My Literacy is a curriculum-based vocabulary tool for primary school students, designed with EAL/D and multilingual learners in mind. It helps children learn the words they meet in their classroom subjects, then brings those words back over time so they are practised, re-used and applied in new contexts.
+
+The tool is grounded in the science of learning and developed by researchers at Macquarie University and their partners.
+
+## Team
+
+- Dr Huachen Wang, Macquarie University (Lead)
+- Dr Brian Ballsun-Stanton, Macquarie University
+- Professor Penny Van Bergen, University of Wollongong
+- Dr Tiffany Jones
+- Dr Jane Man-Yu Lai

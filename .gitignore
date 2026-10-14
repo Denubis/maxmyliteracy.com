@@ -1,0 +1,9 @@
+/_site/
+/.quarto/
+/node_modules/
+/playwright-report/
+/test-results/
+/.notes/
+.DS_Store
+
+**/*.quarto_ipynb

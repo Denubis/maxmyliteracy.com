@@ -1,0 +1,36 @@
+quarto-required: "1.10.19"
+
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+  resources:
+    - favicon.svg
+
+website:
+  title: "Max My Literacy"
+  description: "A curriculum-based vocabulary tool for primary school students, designed with EAL/D and multilingual learners in mind."
+  site-url: "https://denubis.github.io/maxmyliteracy.com/"
+  site-path: "/maxmyliteracy.com/"
+  search: false
+  favicon: favicon.svg
+  navbar:
+    background: primary
+    pinned: true
+    collapse: false
+    right:
+      - href: index.qmd#team
+        text: Team
+
+lang: en-AU
+
+format:
+  html:
+    theme:
+      - cosmo
+      - theme.scss
+    grid:
+      body-width: 860px
+    toc: false
+    anchor-sections: false

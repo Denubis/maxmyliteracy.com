@@ -1,0 +1,87 @@
+/*-- scss:defaults --*/
+$body-bg: #fbfbf8;
+$body-color: #1e2c36;
+$primary: #153f2e;
+$link-color: #145c3d;
+$link-hover-color: #0a3b27;
+$navbar-fg: #ffffff;
+$navbar-hl: #ffffff;
+$font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+$headings-font-family: Georgia, "Times New Roman", serif;
+$font-size-root: 18px;
+$line-height-base: 1.65;
+
+/*-- scss:rules --*/
+body {
+  overflow-wrap: anywhere;
+}
+
+#quarto-header .navbar {
+  padding-block: 0.8rem;
+}
+
+.navbar-brand {
+  font-weight: 650;
+  letter-spacing: -0.02em;
+}
+
+main.content {
+  padding-block: 3rem 4rem;
+}
+
+#title-block-header {
+  margin-bottom: 2rem;
+}
+
+h1.title {
+  color: $primary;
+  font-size: clamp(2.5rem, 7vw, 3.8rem);
+  font-weight: 500;
+  letter-spacing: -0.035em;
+  line-height: 1.1;
+  text-wrap: balance;
+}
+
+.quarto-title-block .subtitle {
+  color: #425447;
+  font-size: clamp(1.1rem, 3vw, 1.3rem);
+  line-height: 1.45;
+  margin-top: 0.9rem;
+}
+
+main.content h2 {
+  border-bottom: 0;
+  border-top: 1px solid #c1cbc1;
+  color: $primary;
+  margin-top: 2.4rem;
+  padding-top: 1.4rem;
+}
+
+main.content li {
+  padding-block: 0.25rem;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid #b34d00;
+  outline-offset: 4px;
+}
+
+#quarto-header a:focus-visible,
+#quarto-header button:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 4px;
+  box-shadow: none;
+}
+
+@media (max-width: 575px) {
+  main.content {
+    padding-block: 2rem 3rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto !important;
+  }
+}
